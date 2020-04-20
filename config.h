@@ -8,8 +8,8 @@
 static char *font = "JetBrains Mono Medium:pixelsize=24:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-	"Inconsolata for Powerline:pixelsize=48:antialias=true:autohint=true",
-	"Hack Nerd Font Mono:pixelsize=36:antialias=true:autohint=true",
+	"Inconsolata for Powerline:pixelsize=24:antialias=true:autohint=true",
+	"Hack Nerd Font Mono:pixelsize=24:antialias=true:autohint=true",
 	"Noto Sans CJK SC:pixelsize=24:antialias=true:autohint=true",
 };
 
@@ -90,7 +90,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 4;
 
 /* bg opacity */
-float alpha = 0.7;
+float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
